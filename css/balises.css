@@ -1,0 +1,45 @@
+*{
+    text-align: right;
+    color: #a93226;
+}
+
+body {
+    background-color: aliceblue;
+} 
+
+header {
+    background-color: aqua;
+}
+
+nav {
+    background-color: #daf7a6;
+}
+
+section {
+    background-color: darksalmon;
+}
+
+.jaune {
+    background-color: yellow;
+}
+
+.noir {
+    background-color: black;
+    color:black;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.footer {
+    background-color: #daf7a6;
+    font-size: 75px;
+    color: #a93226;
+}
+
+.nav {
+    color: #a93226;
+}
+
+li {
+    list-style-position: inside;
+}

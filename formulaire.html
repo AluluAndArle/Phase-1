@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leçon 2 : formulaire</title>
+    <link rel="stylesheet" href="css/formulaire.css">
+</head>
+<body>
+    <header></header>
+    <nav></nav>
+    <main></main>
+    <section>
+        <form action="/action_page.php">
+             <label for="pseudo">First name:</label><br>
+             <input type="text" id="fname" name="fname"><br>
+             <label for="lname">Last name:</label><br>
+             <input type="text" id="lname" name="lname"><br>
+             <label for="email">Enter your email:</label><br>
+             <input type="email" id="email" pattern=".+@example\.com" /><br>
+             <label for="pass">Password (8 characters minimum):</label><br>
+             <input type="password" id="pass" name="password" minlength="8" required /><br>
+             <label for="avatar">Choose a profile picture:</label><br>
+             <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" /><br>
+             <!-- <input type="image" id="image" alt="Login" src="/media/examples/login-button.png" /> -->
+             <br>
+             <!-- <br> permet de faire un retour à la ligne ! -->
+             <!-- <input type="text" id="id" name="name" permet de créer un champ d'espace pour écrire ! -->
+             <fieldset>
+                   <legend>Quelle destination choisissez-vous ?</legend>
+                <p>
+                    <input type="checkbox" id="q1" name="pays" value="q1" />
+                    <label for="q1">Italie</label><br>
+                    <input type="checkbox" id="q2" name="pays" value="q2" />
+                    <label for="q2">Tunisie</label><br>
+                    <input type="checkbox" id="q3" name="pays" value="q3" />
+                    <label for="q3">Espagne</label><br>
+                </p>
+            </fieldset>
+            <fieldset>
+                   <legend>Qui seront vos accompagnateurs ? </legend>
+                <p>
+                    <input type="radio" id="q1" name="join" value="email" />
+                    <label for="q1">En famille</label><br>
+                    <input type="radio" id="q2" name="join" checked value="email" />
+                    <label for="q2">Entre amis</label><br>
+                    <input type="radio" id="q3" name="join" value="email" />
+                    <label for="q3">Solo</label>
+             <!-- "checked" permets de cocher une réponse par défaut ! -->
+                </p>
+            </fieldset>
+            <fieldset>
+                   <legend>Commentaires</legend>
+                <p>
+                    <input type="text" id="comment" name="commentary" maxlength="150" size="150" ></label>
+                </p>
+
+            </fieldset>       
+             <input type="submit" value="Submit">
+             <input type="reset"  value="Reset">
+        </form>
+
+
+        </form>
+    </section>
+    <footer></footer>
+</body>
+</html>
