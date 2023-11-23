@@ -1,0 +1,53 @@
+h1 {
+    background-color: #2F4F4F;
+    color: white;
+}
+
+/* Premier paragraphe en violet : 
+.violet {
+    color :#da72d6 
+}*/
+
+.zone1 {
+    color: #DE143C;
+}
+
+.zone2 {
+    color:#87CEFA;
+}
+
+.zone3 {
+    color:#FFA500;
+}
+
+.zone4 {
+    color:#87CEFA;
+}
+
+.zone52 {
+    background-color: #8B0000;
+    color: white;
+}
+
+.lime {
+    color : limegreen;
+}
+
+p:nth-child(2n-1) {
+    color: #E586D6;
+}
+
+p:nth-child(3) {
+    color: #FFA500;
+}
+/* Vu qu'il partage le même code couleur, on peut donc les mettre dans la même ligne de commande ! */
+/* p:nth-child(3), p:nth-child(10) */
+/* color: #FFA500; !important (Si on veut une couleur en particulière) */
+
+p:nth-child(2n-0) {
+    color: #87CEFA;
+}
+
+p:nth-child(10) {
+    color: #FFA500;
+}

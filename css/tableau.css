@@ -1,0 +1,43 @@
+table {
+
+    width: 60%;
+    margin: auto;
+    border-collapse: collapse;
+    border: 3px solid #483D8B;
+    text-align: center;
+    }
+
+caption {
+    background-color: #D7D0FF;
+    color: #510080;
+    line-height: 30px;
+}
+
+/* background-color: #D7D0FF; */
+/* p.mix {border-style: dotted dashed solid double;} */
+
+th {
+    /* border: 1px solid #510080; */
+    background-color: #e7c2f5;
+    border-style: solid dotted double dotted;
+    /* Sens des borders : Top right bottom left */
+
+}
+
+tr, td {
+    border: 1px dotted #510080;
+}
+
+tr, td:first-child, tfoot{
+    text-align: left;
+    background-color: #e6e6fa;
+}
+
+tfoot{
+    background-color: #e6e6fa;
+    border-style: double dotted double dotted;
+}
+
+td{
+    padding: 5px 20px 5px 10px;
+}
