@@ -1,0 +1,44 @@
+body {
+	background: linear-gradient(aliceblue, white);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.boite {
+	/* background-color: aliceblue; */
+	border: 1px solid black;
+	margin-bottom: 10px;
+	height: 100px;
+	width: 100px;
+	/* display: inline; */
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+.content {
+	background-color: aquamarine;
+}
+
+.fortnite {
+	background-image: url("../img/fortnite.png"); /* The image used */
+	background-color: transparent; /* Used if the image is unavailable */
+	height: 200px; /* You must set a specified height */
+	width: 350px;
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+	margin: 15px;
+	float: left;
+	transition: 0.5s;
+}
+
+.fortnite:hover {
+	margin-top: 15vh;
+	background-image: url("../img/savannah.jfif");
+}
