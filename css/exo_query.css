@@ -1,0 +1,40 @@
+* {
+	padding: 0px;
+	width: 0px;
+	box-sizing: border-box;
+}
+
+main {
+	margin: auto;
+	min-height: 600px;
+	width: 1400px;
+}
+
+section {
+	background-color: yellow;
+	width: 1400px;
+	min-height: 600px;
+}
+
+h1 {
+	display: none;
+}
+@media only screen and (max-width: 1400px) {
+	section {
+		width: 100%;
+		height: 200px;
+		background-color: green;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	/* For mobile phones: */
+	section {
+		width: 100%;
+		height: 200px;
+		background-color: red;
+	}
+	h1 {
+		display: block;
+	}
+}
