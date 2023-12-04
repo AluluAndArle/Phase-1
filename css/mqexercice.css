@@ -1,0 +1,10 @@
+* {
+	box-sizing: border-box;
+	padding: 0px 10px 5px 10px;
+}
+
+.header {
+	background-color: orange;
+	color: #ffffff;
+	padding: 10px;
+}
